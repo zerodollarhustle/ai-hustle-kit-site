@@ -1,66 +1,11 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, Download, Rocket } from "lucide-react";
-
-export default function AIHustleKitLanding() {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-black via-slate-900 to-gray-800 text-white p-6 flex flex-col items-center">
-      <div className="max-w-3xl w-full text-center space-y-6 mt-12">
-        <h1 className="text-4xl font-bold leading-tight">
-          🚀 The $0 AI Hustle Kit
-        </h1>
-        <p className="text-lg text-gray-300">
-          Launch a $1,000/week freelance business from your phone with no laptop, no social media, and zero budget.
-        </p>
-        <Button className="text-lg px-6 py-4 mt-4" size="lg">
-          <Download className="mr-2 h-5 w-5" />
-          Download the Kit ($10)
-        </Button>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
-          <Card className="bg-slate-800">
-            <CardContent className="p-6">
-              <CheckCircle className="text-green-400 mb-2" />
-              <h2 className="font-semibold text-xl">Zero Tools Required</h2>
-              <p className="text-sm text-gray-400 mt-2">
-                Everything works from your phone: create content, land clients, get paid — no experience or software needed.
-              </p>
-            </CardContent>
-          </Card>
-          <Card className="bg-slate-800">
-            <CardContent className="p-6">
-              <CheckCircle className="text-green-400 mb-2" />
-              <h2 className="font-semibold text-xl">Instant Monetization</h2>
-              <p className="text-sm text-gray-400 mt-2">
-                Sell services, templates, or digital products immediately using AI tools, Gumroad, and simple cold outreach.
-              </p>
-            </CardContent>
-          </Card>
-          <Card className="bg-slate-800">
-            <CardContent className="p-6">
-              <CheckCircle className="text-green-400 mb-2" />
-              <h2 className="font-semibold text-xl">Scalable System</h2>
-              <p className="text-sm text-gray-400 mt-2">
-                Build once, scale forever. Use the same tools and templates to build a recurring income stream.
-              </p>
-            </CardContent>
-          </Card>
-        </div>
-        <div className="mt-10">
-          <h3 className="text-2xl font-bold mb-4">What's Included</h3>
-          <ul className="space-y-2 text-left">
-            <li>✅ 25 ChatGPT prompts for instant delivery</li>
-            <li>✅ Gig templates and pricing guide</li>
-            <li>✅ Cold email scripts that convert</li>
-            <li>✅ Upsell strategy for $150–$500 clients</li>
-            <li>✅ Bonus Google Drive template pack</li>
-          </ul>
-        </div>
-        <Button className="text-lg px-6 py-4 mt-8" size="lg">
-          <Rocket className="mr-2 h-5 w-5" />
-          Start Hustling Now
-        </Button>
-        <p className="text-xs text-gray-500 mt-4">100% phone-based. Instant delivery. No fluff.</p>
-      </div>
-    </div>
-  );
-}
+ai-hustle-kit-site/
+├── app/
+│   └── page.tsx        ← Paste the canvas code here
+├── public/
+├── styles/
+│   └── globals.css     ← Optional: Tailwind styles
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+├── tsconfig.json
+├── next.config.js
